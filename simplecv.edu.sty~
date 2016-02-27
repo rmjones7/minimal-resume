@@ -74,10 +74,10 @@
   \l_resume_education_major_tl, ~
   \l_resume_education_degree_tl 
   \\
-  %\resume_maybe_link:NN
-   % \l_resume_education_transcript_link_tl
-    %\resume_typeset_education__general_major_gpa:
-  %\\
+  \resume_maybe_link:NN
+    \l_resume_education_transcript_link_tl
+    \resume_typeset_education__general_major_gpa:
+  \\
   \resume_maybe_link:NN
     \l_resume_education_school_link_tl
     \l_resume_education_school_tl
