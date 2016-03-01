@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.5)  29 FEB 2016 19:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.5)  29 FEB 2016 19:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**cv.tex
-(./cv.tex
+**resume.tex
+(./resume.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 2 languages loaded.
 (./simplecv.cls (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3names.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3bootstrap.sty
@@ -580,12 +580,12 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedLeftParindent=\skip90
 \RaggedRightParindent=\skip91
 \JustifyingParindent=\skip92
-) (./cv.aux
+) (./resume.aux
 
 LaTeX Warning: Label `IEEEVR' multiply defined.
 
 )
-\openout1 = `cv.aux'.
+\openout1 = `resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
@@ -632,9 +632,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 34.
 LaTeX Info: Redefining \pageref on input line 34.
 LaTeX Info: Redefining \nameref on input line 34.
-(./cv.out) (./cv.out)
+(./resume.out) (./resume.out)
 \@outlinefile=\write3
-\openout3 = `cv.out'.
+\openout3 = `resume.out'.
 
 LaTeX Info: Redefining \microtypecontext on input line 34.
 Package microtype Info: Generating PDF output.
@@ -730,32 +730,31 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <9> not available
                                                   \fi \fi 
 l.226 \newpage
               ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
-[2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
-(./cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 242.
-Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: E2D9D0944AA392F6860CF11659B17211;215.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
+(./resume.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 227.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
+Package rerunfilecheck Info: File `resume.out' has not changed.
+(rerunfilecheck)             Checksum: 17C5C9DA0FA4F0EE5DFF247B6F166C4B;174.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 242.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 227.
  ) 
 Here is how much of TeX's memory you used:
- 15319 strings out of 495028
- 261710 string characters out of 6181498
- 368667 words of memory out of 5000000
+ 15318 strings out of 495028
+ 261756 string characters out of 6181498
+ 368683 words of memory out of 5000000
  18247 multiletter control sequences out of 15000+600000
  11048 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,11n,47p,10375b,343s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,11n,47p,10379b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsltt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on cv.pdf (2 pages, 161957 bytes).
+Output written on resume.pdf (1 page, 160886 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
- 19489 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 92 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
+ 3 named destinations out of 1000 (max. 500000)
+ 19481 words of extra memory for PDF output out of 20736 (max. 10000000)
 

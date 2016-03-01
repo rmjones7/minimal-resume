@@ -79,8 +79,8 @@
     %\l_resume_position_company_link_tl
     %\l_resume_position_company_tl
   %\\
-  %\l_resume_position_city_tl,~
-  %\l_resume_position_state_tl
+  \l_resume_position_city_tl,~
+  \l_resume_position_state_tl
   \endminipage
   \hfill
   \minipage[t]{
