@@ -15,6 +15,7 @@
   phone    .tl_set:N  = \l_resume_contact_phone_tl,
   email    .tl_set:N  = \l_resume_contact_email_tl,
   url      .tl_set:N  = \l_resume_contact_url_tl,
+  github   .tl_set:N  = \l_resume_contact_github_tl,
 }
 
 \NewDocumentCommand \ContactInformation { m }
@@ -59,6 +60,7 @@
     \begin{flushright}
       \l_resume_contact_phone_tl \\
       \href{mailto:\l_resume_contact_email_tl}{\ttfamily \l_resume_contact_email_tl} \\
+      \tl_if_empty:NF \l_resume_contact_github_tl { \url{\l_resume_contact_github_tl} \\ }
       \tl_if_empty:NF \l_resume_contact_url_tl { \url{\l_resume_contact_url_tl} \\ }
     \end{flushright}
   \end{minipage}
