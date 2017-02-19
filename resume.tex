@@ -7,7 +7,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[9pt]{article}
+\documentclass[10pt]{article}
 
 % Input details here:
 \newcommand{\authorname}{Arun Lakshmanan}
@@ -37,7 +37,7 @@
             %includefoot, % Uncomment to put page number above margin
             marginparwidth=1.00in,     % Length of section titles
             marginparsep=.05in,       % Space between titles and text
-            margin=0.75in,               % 1 inch margins
+            margin=0.75in,
             includemp]{geometry}
 
 %% More layout: Get rid of indenting throughout entire document
@@ -58,7 +58,7 @@
 
 % Finally, give us PDF bookmarks
 \usepackage{hyperref}
-\hypersetup{colorlinks,breaklinks,
+\hypersetup{colorlinks,breaklinks,pageanchor=false,
             linkcolor=darkblue,urlcolor=darkblue,
             anchorcolor=darkblue,citecolor=darkblue}
 
@@ -74,7 +74,7 @@
 % Place at top of document. It should be the first thing.
 
 \newcommand{\makeheading}%
-         {\vspace*{-7.5em}%
+         {\vspace*{-2.5em}%
           \hspace*{-\marginparsep minus \marginparwidth}%
              \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
                {\Huge \hspace{-1.20em} \authorname}%
@@ -156,15 +156,15 @@
 I want to work with a community of researchers to put to use my skills in robotics and control systems and build creative solutions in the world of autonomous systems.
 
 \section{Education}
-\textbf{PhD Aerospace Engineering}   \hfill \textbf{Jan 2017 - }\textbf{present} \\
+\textbf{PhD Aerospace Engineering}   \hfill \textbf{Jan 2017 - }\textbf{present}\\
 \textit{\href{http://www.ae.illinois.edu/}
         {University of Illinois at Urbana-Champaign},
-        Urbana, IL.} \\
+        Urbana, IL.} \bigskip
 
 \textbf{M.S. Aerospace Engineering}   \hfill \textbf{Aug 2014 - Dec 2016}\\
 \textit{\href{http://www.ae.illinois.edu/}
         {University of Illinois at Urbana-Champaign},
-        Urbana, IL.} \\
+        Urbana, IL.}  \bigskip
 
 \textbf{B.Tech. Mechanical Engineering}  \hfill \textbf{July 2010 - May 2014}\\
 \textit{\href{http://vit.ac.in/}
@@ -202,7 +202,7 @@ I want to work with a community of researchers to put to use my skills in roboti
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Page break
 
 \section{Technical Summary}
-I have extensive experience with robotics development on quadrotors and ground robots in the realms of controller architecture design, motion planning and trajectory generation. I am very interested in computationally efficient solutions to trajectory generation for mobile robots in cluttered environments. \\
+I have extensive experience with robotics development on quadrotors and ground robots in the realms of controller architecture design, motion planning and trajectory generation. I am very interested in computationally efficient solutions to trajectory generation for mobile robots in cluttered environments. \medskip
 
 I am adept at writing \textbf{C}/\textbf{\CPP} software for embedded systems, \textbf{Python} for rapid prototyping and high-level decision making, \textbf{ROS} packages for communication services, and \textbf{MATLAB} and \textbf{Simulink} models for analysis and design. I have primarily developed software for ARM-based processors running Linux/FreeRTOS environments.
 
