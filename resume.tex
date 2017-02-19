@@ -6,7 +6,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% HACK: Refer: http://tex.stackexchange.com/questions/227933/using-bibentry-to-cite-in-text-reference-with-apacite
+\RequirePackage{bibentry}
+\makeatletter\let\saved@bibitem\@bibitem\makeatother
+
 \documentclass[9pt]{article}
+
+\makeatletter\let\@bibitem\saved@bibitem\makeatother
 
 % Input details here:
 \newcommand{\authorname}{Arun Lakshmanan}
@@ -15,9 +21,6 @@
 \newcommand{\email}{\href{mailto:lakshma2@illinois.edu}{lakshma2@illinois.edu}}
 \newcommand{\github}{\href{http://github.com/arunlakshmanan}{github.com/arunlakshmanan}}
 \newcommand{\website}{\href{www.arunlakshmanan.com}{arunlakshmanan.com}}
-
-% This package is used for bibliography management
-\usepackage{bibentry}
 
 % This is a helpful package that puts math inside length specifications
 \usepackage{calc}
