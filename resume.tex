@@ -1,7 +1,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%% Simple LaTeX CV Template %%%%%%%%%%%%%%%%%%%%%%%%
-% _author_: Arun Lakshmanan
-% _email_: lakshma2@illinois.edu
+% _author_: Mitchell Jones
+% _email_: rmjones7@illinois.edu
+% forked from minimal-resume (github.com/arunlakshmanan)
 % modified from the Simple LaTeX CV Template (github.com/kscottz)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -10,12 +11,12 @@
 \documentclass[10pt]{article}
 
 % Input details here:
-\newcommand{\authorname}{Arun Lakshmanan}
-\newcommand{\tel}{+1 (217) 979-5708}
+\newcommand{\authorname}{Robert Mitchell Jones}
+\newcommand{\tel}{(860) 670-4546}
 \newcommand{\addr}{Urbana IL, 61801}
-\newcommand{\email}{\href{mailto:lakshma2@illinois.edu}{lakshma2@illinois.edu}}
-\newcommand{\github}{\href{http://github.com/arunlakshmanan}{github.com/arunlakshmanan}}
-\newcommand{\website}{\href{www.arunlakshmanan.com}{arunlakshmanan.com}}
+\newcommand{\email}{\href{mailto:rmjones7@illinois.edu}{rmjones7@illinois.edu}}
+\newcommand{\github}{\href{http://github.com/rmjones7}{github.com/rmjones7}}
+\newcommand{\website}{\href{www.robertmitchelljones.com}{robertmitchelljones.com}}
 
 \usepackage{natbib}
 \usepackage{bibentry}
@@ -156,25 +157,20 @@
 I want to work with a community of researchers to put to use my skills in robotics and control systems and build creative solutions in the world of autonomous systems.
 
 \section{Education}
-\textbf{PhD Aerospace Engineering}   \hfill \textbf{Jan 2017 - }\textbf{present}\\
-\textit{\href{http://www.ae.illinois.edu/}
+\textbf{MS Mechanical Science and Engineering}   \hfill \textbf{Sept 2015 - }\textbf{present}\\
+\textit{\href{http://www.mechse.illinois.edu/}
         {University of Illinois at Urbana-Champaign},
         Urbana, IL.} \bigskip
 
-\textbf{M.S. Aerospace Engineering}   \hfill \textbf{Aug 2014 - Dec 2016}\\
-\textit{\href{http://www.ae.illinois.edu/}
-        {University of Illinois at Urbana-Champaign},
-        Urbana, IL.}  \bigskip
-
-\textbf{B.Tech. Mechanical Engineering}  \hfill \textbf{July 2010 - May 2014}\\
-\textit{\href{http://vit.ac.in/}
-        {VIT University},
-        Vellore, India.}
+\textbf{BS Mechanical Engineering}  \hfill \textbf{Sept 2011 - May 2015}\\
+\textit{\href{http://uri.edu/}
+        {University of Rhode Island},
+        Kingston, RI.}
 \blankline
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Page break
 
 \section{Relevant Coursework}
-\textit{Advanced Robotics Planning, Robust Adaptive Control, Nonlinear \& Adaptive Control, Nonlinear Systems, Real Variables, Control Systems Theory \& Design, Introduction to Robotics, and Digital Control Systems.}
+\textit{Robust Adaptive Control, Optimum Control Systems, Advanced Robotics Planning, Analysis of Nonlinear Systems, Control of Complex Systems, Control Systems Theory \& Design.}
 \blankline
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Page break
@@ -186,16 +182,27 @@ I want to work with a community of researchers to put to use my skills in roboti
 \begin{outerlist}
 \item Designed a computationally efficient trajectory generation approach using piecewise B\'ezier curves for differentially flat systems. This approach can be used to generate feasible minimum snap trajectories for quadrotors in the least time with the added advantage of using the convex hulls of B\'ezier curves to check for any collisions incurred during interpolation. Further analysis and results can be found in the master's thesis.
 \item Constantly involved with all software-related development in the research group. Implemented path following controllers on ground robots for precise tracking, designed line-of-sight based collision avoidance methods replying purely on directional sensor information, and more recently, geometric controllers were implemented to track aggressive trajectories on quadrotors.
-\item Constructed a virtual reality environment with simulated quadrotor dynamics for a psychology study to characterize the perceived discomfort of humans in the vicinity of quadrotors. The parameters learned from this study was used to design a cost function to generate trajectories that minimize the perceived discomfort.
 \end{outerlist}
 \blankline
 
-\href{https://www.pennovation.upenn.edu/the-community/innovators/qualcomm-research-philadelphia}{\textbf{Qualcomm Research}, Philadelphia, PA.}
-\hfill \textbf{May 2016 - Aug 2016} \\
-\textit{Intern Engineer}%
+\href{https://ti.arc.nasa.gov/}{\textbf{NASA Ames Research Center}, Moffett Field, CA.}
+\hfill \textbf{June 2016 - Aug 2016} \\
+\textit{Graduate Intern}%
 \begin{outerlist}
-\item Involved with the firmware development of the \href{https://developer.qualcomm.com/hardware/snapdragon-flight}{Snapdragon Flight} board for autonomous quadrotor applications using vision-based sensor information. Designed an obstacle avoidance controller for assistive collision prevention using noisy vision-based range information.
-\item Developed sampling-based motion planning algorithms to generate distance-optimal collision-free paths for the vehicle from an occupancy grid map. The software was designed to be as computationally efficient as possible to run seamlessly on the Snapdragon 801 chipset.
+\item Designed and built an aerial manipulator system for use on a small quadrotor.
+\item Programmed an onboard controller for execution of manipulator commands during flight.
+\item Modeled manipulator dynamics in Simulink and developed method for
+stabilizing vehicle during normal operation and highly dynamic maneuvers.
+\end{outerlist}
+\blankline
+
+\href{http://greensightag.com/}{\textbf{Greensight Agronomics}, Boston, MA.}
+\hfill \textbf{June 2015 - Sept 2015} \\
+\textit{Mechanical Engineer \& UAV Pilot}%
+\begin{outerlist}
+\item Developed subsystems for an early-stage startup company delivering
+autonomous plant monitoring solutions to the agricultural and recreational industries.
+\item Flew contracted on-site missions mapping various farms, golf courses, athletic fields, etc.
 \end{outerlist}
 \blankline
 
@@ -210,10 +217,7 @@ I am adept at writing \textbf{C}/\textbf{\CPP} software for embedded systems, \t
 \section{Publications}
 \begin{lonelist}
 \item \bibentry{Jones_undated-hi}
-\item \bibentry{mastersthesis}
-\item \bibentry{Marinho2016-zq}
 \item \bibentry{Marinho2016-fo}
-\item \bibentry{Lele2015}
 \end{lonelist}
 
 \end{document}
